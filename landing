@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exclusive Watch Collection</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-image: url(https://images.unsplash.com/photo-1526648856597-c2b6745ad7bd?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2F0Y2glMjB3YWxscGFwZXJ8ZW58MHx8MHx8fDA%3D); /* Replace with your background image URL */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    
+    /* Header Section */
+    header {
+      background-color: rgba(30, 30, 30, 0.7); /* Dark overlay for readability */
+      color: #e4dddd;
+      padding: 50px 0;
+      text-align: center;
+    }
+    
+    header h1 {
+      font-size: 3.5em;
+      margin: 0;
+    }
+    
+    header p {
+      font-size: 1.4em;
+      margin-top: 10px;
+    }
+
+    /* Call-to-Action Section */
+   section.cta {
+      background-color: rgba(68, 14, 14, 0.05); /* Slightly transparent overlay */
+      color: #d8d6d0;
+      padding: 60px 0;
+      text-align: center;
+    } 
+    
+    section.cta h2 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+    
+    section.cta p {
+      font-size: 1.2em;
+      margin-top: 20px;
+    }
+    
+    section.cta a {
+      display: inline-block;
+      padding: 15px 30px;
+      background-color: #f39c12;
+      color: #4b3f3f;
+      font-size: 1.2em;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 20px;
+      transition: background-color 0.3s ease;
+    }
+
+    section.cta a:hover {
+      background-color: #e67e22;
+    }
+
+    /* Footer Section */
+    footer {
+      background-color: rgba(30, 30, 30, 0.8);
+      color: #817878;
+      padding: 5px 0;
+      text-align: center;
+    }
+    
+    footer p {
+      font-size: 1em;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div style="width: 80%; margin: 0 auto;">
+      <h1>Exclusive Watch Collection</h1>
+      <p>Elegance and Precision in Every Timepiece</p>
+    </div>
+  </header>
+
+  <!-- Call-to-Action Section -->
+  <section class="cta">
+    <div style="width: 30%; margin: 0 auto;">
+      <h2>Discover Timeless Luxury</h2>
+      <p>Browse our curated selection of watches designed for sophistication and style.</p>
+      <a href="#">Explore Our Collection</a>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div style="width: 80%; margin: 0 auto;">
+      <p>&copy; 2025 Watch Showroom. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
